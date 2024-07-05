@@ -1,0 +1,55 @@
+* {
+    background-color: aqua;
+
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.dado{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 10px;
+    background-color: black;
+}
+
+.punto {
+    width: 15px;
+    height: 15px;
+
+    background-color: white;
+
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#dado1{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.columna {
+
+    height: 28%;
+
+    background-color: transparent;
+
+    /* outline: 1px solid black; */
+}
+
+#columna3-dado2 {
+    display: flex;
+
+    justify-content: end;
+}
